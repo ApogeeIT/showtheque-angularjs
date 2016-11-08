@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShowTheque AngularJs</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/toastr/build/toastr.min.css">
+</head>
+<body ng-app="showthequeApp">
+
+    <div ng-include src="'modules/common/views/header.html'"></div>
+
+    <div class="container body-content">
+        <div ng-view></div>
+    </div>    
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/toastr/build/toastr.min.js"></script>
+
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular-route/angular-route.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="modules/home/controllers/HomeController.js"></script>
+    <script src="modules/show/controllers/ShowListController.js"></script>
+    <script src="modules/show/controllers/ShowEditController.js"></script>
+    <script src="modules/show/services/showService.js"></script>
+    <script src="modules/show/directives/episodeDirective.js"></script>
+    <script src="modules/show/filters/progressFilter.js"></script>
+
+</body>
+</html>

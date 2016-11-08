@@ -1,0 +1,24 @@
+{
+  "name": "showtheque-angularjs",
+  "version": "1.0.0",
+  "description": "ShowTheque avec AngularJs",
+  "main": "src/index.html",
+  "author": "concat@apogee-it.fr",
+  "keywords": ["tutorial", "formation", "AngularJs"],
+  "license": "ISC",
+  "repository": "",
+  "scripts": {
+    "server" :"lite-server",
+    "start" : "npm run server"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "toastr": "^2.1.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
