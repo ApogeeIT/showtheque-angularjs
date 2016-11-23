@@ -6,7 +6,7 @@
   "author": "concat@apogee-it.fr",
   "keywords": ["tutorial", "formation", "AngularJs"],
   "license": "ISC",
-  "repository": "",
+  "repository": "https://github.com/ApogeeIT/showtheque-angularjs.git",
   "scripts": {
     "server" :"lite-server",
     "start" : "npm run server"
