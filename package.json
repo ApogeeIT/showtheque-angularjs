@@ -12,8 +12,8 @@
     "start" : "npm run server"
   },
   "dependencies": {
-    "angular": "^1.5.8",
-    "angular-route": "^1.5.8",
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
     "bootstrap": "^3.3.7",
     "jquery": "^3.1.1",
     "toastr": "^2.1.2"
