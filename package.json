@@ -4,12 +4,17 @@
   "description": "ShowTheque avec AngularJs",
   "main": "src/index.html",
   "author": "concat@apogee-it.fr",
-  "keywords": ["tutorial", "formation", "AngularJs"],
+  "keywords": [
+    "tutorial",
+    "formation",
+    "AngularJs"
+  ],
   "license": "ISC",
   "repository": "https://github.com/ApogeeIT/showtheque-angularjs.git",
   "scripts": {
-    "server" :"lite-server",
-    "start" : "npm run server"
+    "server": "lite-server",
+    "start": "npm run server",
+    "test": "karma start karma.config.js"
   },
   "dependencies": {
     "angular": "^1.6.1",
@@ -19,6 +24,10 @@
     "toastr": "^2.1.2"
   },
   "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
     "lite-server": "^2.2.2"
   }
 }
