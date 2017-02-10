@@ -5,7 +5,7 @@ module.exports = function (config) {
         autoWatch: true,
         basePath: './',
         frameworks: [
-            "jasmine"
+            'jasmine'
         ],
 
         // list of files / patterns to load in the browser
@@ -15,29 +15,29 @@ module.exports = function (config) {
             'node_modules/bootstrap/dist/js/bootstrap.min.js',
             'node_modules/angular/angular.js',
             'node_modules/angular-route/angular-route.js',
-            "src/**/*.js",
-            "test/**/*.js"
+            'src/**/*.js',
+            'test/**/*.js'
         ],
         exclude: [
         ],
         port: 8080,
         browsers: [
-            "PhantomJS"
+            'PhantomJS'
         ],
 
-        //reporters: ['progress', 'coverage'],
-        //preprocessors: {
-        //    'app/**/*.js': ['coverage']
-        //},
-        //coverageReporter: {
-        //    type: 'html',
-        //    dir: 'coverage'
-        //},
+        reporters: ['progress', 'coverage'],
+        preprocessors: {
+            'src/**/*.js': ['coverage']
+        },
+        coverageReporter: {
+            type: 'html',
+            dir: 'coverage'
+        },
 
         plugins: [
-            "karma-phantomjs-launcher",
-            "karma-jasmine",
-            //'karma-coverage' // required for coverage
+            'karma-phantomjs-launcher',
+            'karma-jasmine',
+            'karma-coverage' // required for coverage
         ],
         singleRun: true,
         colors: true,
